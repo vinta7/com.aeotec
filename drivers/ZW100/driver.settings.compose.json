@@ -260,20 +260,43 @@
   },
   {
     "id": "81",
-    "type": "checkbox",
+    "type": "dropdown",
     "label": {
-      "en": "LED Behaviour On Alarms",
-      "nl": "LED Gedrag Bij Alarmen"
+      "en": "LED Behaviour",
+      "nl": "LED Gedrag"
     },
     "hint": {
-      "en": "Enable the LED on activating the motion and tamper alarms.\n\nDevice firmware v1.8 and up",
-      "nl": "Activeer de LED bij het activeren van de beweging en sabotage alarmen.\n\nDevice firmware v1.8 en hoger"
+      "en": "Determines LED Behaviour.\n\nDevice firmware v1.10 and up",
+      "nl": "Bepaalt LED-gedrag.\n\nDevice firmware v1.10 en hoger"
     },
     "zwave": {
       "index": 81,
       "size": 1
     },
-    "value": true
+    "value": "1",
+    "values": [
+      {
+        "id": "0",
+        "label": {
+          "en": "Enable LED on Report, Alarms",
+          "nl": "Schakel LED op rapport in, alarmen"
+        }
+      },
+      {
+        "id": "1",
+        "label": {
+          "en": "Enable LED on Alarms",
+          "nl": "Schakel LED op alarmen in"
+        }
+      },
+      {
+        "id": "2",
+        "label": {
+          "en": "Disable LED",
+          "nl": "Schakel LED uit"
+        }
+      }
+    ]
   },
   {
     "id": "111",
