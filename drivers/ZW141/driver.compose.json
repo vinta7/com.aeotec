@@ -1,0 +1,37 @@
+{
+  "id": "ZW141",
+  "name": {
+    "en": "Nano Shutter (ZW141)"
+  },
+  "class": "other",
+  "capabilities": [
+    "windowcoverings_state"
+  ],
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 134,
+    "productTypeId": [
+      3,
+    103,
+    203
+    ],
+    "productId": [
+      141
+    ],
+    "zwaveAllianceProductId": 2953,
+    "zwaveAllianceProductDocumentation": "https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/2953/Aeon Labs Nano Shutter -manual.pdf",
+    "learnmode": {
+      "instruction": {
+        "en": "Press the action button on the back of the {{driverNameEn}}.",
+        "nl": "Druk op de actie knop op de achterkant van de {{driverNameNl}}."
+      }
+    },
+    "associationGroups": [
+      1,
+      2
+    ]
+  }
+}
